@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>منوی دیجیتالی کافه</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!--***************************** Header *****************************-->
+    <header class="main-header">
+      <img
+        src="./assets/images/swan-logo.png"
+        alt="logo"
+        class="header-logo-img"
+      />
+      <div class="welcome-text">به کافه سوان خوش آمدید</div>
+    </header>
+
+    <!--***************************** Start Menu *****************************-->
+    <div class="menu-container">
+      <nav class="categories" aria-label="دسته‌بندی‌ها">
+        <div class="category-item active" data-category="hot-drink">
+          <img
+            src="./assets/images/hot-drink-icon.svg"
+            alt="hot drink"
+            class="category-icon"
+          />
+          <span>نوشیدنی گرم</span>
+        </div>
+
+        <div class="category-item" data-category="no-cafee-hot-drink">
+          <img
+            src="./assets/images/hot-drink-no-cafe.svg"
+            alt="no-cafee"
+            class="category-icon"
+          />
+          <span>نوشیدنی گرم بدون قهوه</span>
+        </div>
+
+        <div class="category-item" data-category="cold-drink">
+          <img
+            src="./assets/images/cold-drink-icon.svg"
+            alt="cold-drink"
+            class="category-icon"
+          />
+          <span>نوشیدنی سرد</span>
+        </div>
+
+        <div class="category-item" data-category="smoothie">
+          <img
+            src="./assets/images/smoothie-icon.svg"
+            alt="smoothie"
+            class="category-icon"
+          />
+          <span>اسموتی</span>
+        </div>
+        <div class="category-item" data-category="breakfast">
+          <img
+            src="./assets/images/breakfast-icon.svg"
+            alt="breakfast"
+            class="category-icon"
+          />
+          <span>صبحانه</span>
+        </div>
+
+        <div class="category-item" data-category="sandwich">
+          <img
+            src="./assets/images/sandwich-icon.svg"
+            alt="sandwich"
+            class="category-icon"
+          />
+          <span>ساندویچ</span>
+        </div>
+
+        <div class="category-item" data-category="shake">
+          <img
+            src="./assets/images/millshake-icon.svg"
+            alt="shake"
+            class="category-icon"
+          />
+          <span>شیک ها</span>
+        </div>
+      </nav>
+      <!--***************************** Menu Items List *****************************-->
+      <div class="menu-items-container" id="menu-items-container">
+        <!-- Breakfast -->
+        <article class="menu-items-wrapper" id="breakfast">
+          <h2 class="menu-items-title">صبحانه</h2>
+          <div class="menu-items-box">
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/1-cold-drink.png"
+                alt="آبمیوه طبیعی"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="item-info">
+                <h3 class="item-name">آبمیوه طبیعی</h3>
+                <p class="price">
+                  50,000 <span class="price-postfix">تومان</span>
+                </p>
+              </div>
+
+              <ul class="details-list">
+                <li>تازه و طبیعی</li>
+                <li>بدون مواد افزودنی</li>
+              </ul>
+            </div>
+
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/2-cold-drink.png"
+                alt="لیموناد"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="menu-item-info">
+                <div class="item-info">
+                  <h3 class="item-name">لیموناد</h3>
+                  <p class="price">
+                    45,000 <span class="price-postfix">تومان</span>
+                  </p>
+                </div>
+              </div>
+
+              <ul class="details-list">
+                <li>لیمو تازه</li>
+                <li>خنک و گوارا</li>
+              </ul>
+            </div>
+
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/3-cold-drink.png"
+                alt="چای یخی"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="menu-item-info">
+                <div class="item-info">
+                  <h3 class="item-name">چای یخی</h3>
+                  <p class="price">
+                    55,000 <span class="price-postfix">تومان</span>
+                  </p>
+                </div>
+              </div>
+
+              <ul class="details-list">
+                <li>چای سیاه با یخ</li>
+                <li>مناسب روزهای گرم</li>
+              </ul>
+            </div>
+
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/2-cold-drink.png"
+                alt="لیموناد"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="menu-item-info">
+                <div class="item-info">
+                  <h3 class="item-name">لیموناد</h3>
+                  <p class="price">
+                    45,000 <span class="price-postfix">تومان</span>
+                  </p>
+                </div>
+              </div>
+
+              <ul class="details-list">
+                <li>تازه و طبیعی</li>
+                <li>بدون مواد افزودنی</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+        <!-- sandwich -->
+        <article class="menu-items-wrapper" id="sandwich">
+          <h2 class="menu-items-title">ساندویچ</h2>
+          <div class="menu-items-box">
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/1-desserts.png"
+                alt="آبمیوه طبیعی"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="item-info">
+                <h3 class="item-name">آبمیوه طبیعی</h3>
+                <p class="price">
+                  50,000 <span class="price-postfix">تومان</span>
+                </p>
+              </div>
+
+              <ul class="details-list">
+                <li>تازه و طبیعی</li>
+                <li>بدون مواد افزودنی</li>
+              </ul>
+            </div>
+
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/2-desserts.png"
+                alt="لیموناد"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="menu-item-info">
+                <div class="item-info">
+                  <h3 class="item-name">لیموناد</h3>
+                  <p class="price">
+                    45,000 <span class="price-postfix">تومان</span>
+                  </p>
+                </div>
+              </div>
+
+              <ul class="details-list">
+                <li>لیمو تازه</li>
+                <li>خنک و گوارا</li>
+              </ul>
+            </div>
+
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/3-desserts.png"
+                alt="چای یخی"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="menu-item-info">
+                <div class="item-info">
+                  <h3 class="item-name">چای یخی</h3>
+                  <p class="price">
+                    55,000 <span class="price-postfix">تومان</span>
+                  </p>
+                </div>
+              </div>
+
+              <ul class="details-list">
+                <li>چای سیاه با یخ</li>
+                <li>مناسب روزهای گرم</li>
+              </ul>
+            </div>
+
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/2-cold-drink.png"
+                alt="لیموناد"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="menu-item-info">
+                <div class="item-info">
+                  <h3 class="item-name">لیموناد</h3>
+                  <p class="price">
+                    45,000 <span class="price-postfix">تومان</span>
+                  </p>
+                </div>
+              </div>
+
+              <ul class="details-list">
+                <li>تازه و طبیعی</li>
+                <li>بدون مواد افزودنی</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+        <!-- shake -->
+        <article class="menu-items-wrapper" id="shake">
+          <h2 class="menu-items-title">شیک ها</h2>
+          <div class="menu-items-box">
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/1-shake.png"
+                alt="آبمیوه طبیعی"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="item-info">
+                <h3 class="item-name">آبمیوه طبیعی</h3>
+                <p class="price">
+                  50,000 <span class="price-postfix">تومان</span>
+                </p>
+              </div>
+
+              <ul class="details-list">
+                <li>تازه و طبیعی</li>
+                <li>بدون مواد افزودنی</li>
+              </ul>
+            </div>
+
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/2-shake.png"
+                alt="لیموناد"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="menu-item-info">
+                <div class="item-info">
+                  <h3 class="item-name">لیموناد</h3>
+                  <p class="price">
+                    45,000 <span class="price-postfix">تومان</span>
+                  </p>
+                </div>
+              </div>
+
+              <ul class="details-list">
+                <li>لیمو تازه</li>
+                <li>خنک و گوارا</li>
+              </ul>
+            </div>
+
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/3-shake.png"
+                alt="چای یخی"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="menu-item-info">
+                <div class="item-info">
+                  <h3 class="item-name">چای یخی</h3>
+                  <p class="price">
+                    55,000 <span class="price-postfix">تومان</span>
+                  </p>
+                </div>
+              </div>
+
+              <ul class="details-list">
+                <li>چای سیاه با یخ</li>
+                <li>مناسب روزهای گرم</li>
+              </ul>
+            </div>
+
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/2-cold-drink.png"
+                alt="لیموناد"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="menu-item-info">
+                <div class="item-info">
+                  <h3 class="item-name">لیموناد</h3>
+                  <p class="price">
+                    45,000 <span class="price-postfix">تومان</span>
+                  </p>
+                </div>
+              </div>
+
+              <ul class="details-list">
+                <li>تازه و طبیعی</li>
+                <li>بدون مواد افزودنی</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+        <!-- hot drink -->
+        <article
+          class="menu-items-wrapper"
+          id="hot-drink"
+          style="display: block"
+        >
+          <h2 class="menu-items-title">نوشیدنی گرم</h2>
+          <div class="menu-items-box">
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/1-hot-drink.png"
+                alt="آبمیوه طبیعی"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="item-info">
+                <h3 class="item-name">آبمیوه طبیعی</h3>
+                <p class="price">
+                  50,000 <span class="price-postfix">تومان</span>
+                </p>
+              </div>
+
+              <ul class="details-list">
+                <li>تازه و طبیعی</li>
+                <li>بدون مواد افزودنی</li>
+              </ul>
+            </div>
+
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/2-hot-drink.png"
+                alt="لیموناد"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="menu-item-info">
+                <div class="item-info">
+                  <h3 class="item-name">لیموناد</h3>
+                  <p class="price">
+                    45,000 <span class="price-postfix">تومان</span>
+                  </p>
+                </div>
+              </div>
+
+              <ul class="details-list">
+                <li>لیمو تازه</li>
+                <li>خنک و گوارا</li>
+              </ul>
+            </div>
+
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/3-hot-drink.png"
+                alt="چای یخی"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="menu-item-info">
+                <div class="item-info">
+                  <h3 class="item-name">چای یخی</h3>
+                  <p class="price">
+                    55,000 <span class="price-postfix">تومان</span>
+                  </p>
+                </div>
+              </div>
+
+              <ul class="details-list">
+                <li>چای سیاه با یخ</li>
+                <li>مناسب روزهای گرم</li>
+              </ul>
+            </div>
+
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/2-cold-drink.png"
+                alt="لیموناد"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="menu-item-info">
+                <div class="item-info">
+                  <h3 class="item-name">لیموناد</h3>
+                  <p class="price">
+                    45,000 <span class="price-postfix">تومان</span>
+                  </p>
+                </div>
+              </div>
+
+              <ul class="details-list">
+                <li>تازه و طبیعی</li>
+                <li>بدون مواد افزودنی</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <!-- no cafee hot drink -->
+        <article class="menu-items-wrapper" id="no-cafee-hot-drink">
+          <h2 class="menu-items-title">نوشیدنی گرم بدون قهوه</h2>
+          <div class="menu-items-box">
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/2-hot-drink.png"
+                alt="آبمیوه طبیعی"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="item-info">
+                <h3 class="item-name">آبمیوه طبیعی</h3>
+                <p class="price">
+                  50,000 <span class="price-postfix">تومان</span>
+                </p>
+              </div>
+
+              <ul class="details-list">
+                <li>تازه و طبیعی</li>
+                <li>بدون مواد افزودنی</li>
+              </ul>
+            </div>
+
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/1-cold-drink.png"
+                alt="لیموناد"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="menu-item-info">
+                <div class="item-info">
+                  <h3 class="item-name">لیموناد</h3>
+                  <p class="price">
+                    45,000 <span class="price-postfix">تومان</span>
+                  </p>
+                </div>
+              </div>
+
+              <ul class="details-list">
+                <li>لیمو تازه</li>
+                <li>خنک و گوارا</li>
+              </ul>
+            </div>
+
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/2-hot-drink.png"
+                alt="چای یخی"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="menu-item-info">
+                <div class="item-info">
+                  <h3 class="item-name">چای یخی</h3>
+                  <p class="price">
+                    55,000 <span class="price-postfix">تومان</span>
+                  </p>
+                </div>
+              </div>
+
+              <ul class="details-list">
+                <li>چای سیاه با یخ</li>
+                <li>مناسب روزهای گرم</li>
+              </ul>
+            </div>
+
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/2-cold-drink.png"
+                alt="لیموناد"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="menu-item-info">
+                <div class="item-info">
+                  <h3 class="item-name">لیموناد</h3>
+                  <p class="price">
+                    45,000 <span class="price-postfix">تومان</span>
+                  </p>
+                </div>
+              </div>
+
+              <ul class="details-list">
+                <li>تازه و طبیعی</li>
+                <li>بدون مواد افزودنی</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <!-- cold drink -->
+        <article class="menu-items-wrapper" id="cold-drink">
+          <h2 class="menu-items-title">نوشیدنی سرد</h2>
+          <div class="menu-items-box">
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/1-juice.png"
+                alt="آبمیوه طبیعی"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="item-info">
+                <h3 class="item-name">آبمیوه طبیعی</h3>
+                <p class="price">
+                  50,000 <span class="price-postfix">تومان</span>
+                </p>
+              </div>
+
+              <ul class="details-list">
+                <li>تازه و طبیعی</li>
+                <li>بدون مواد افزودنی</li>
+              </ul>
+            </div>
+
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/3-cold-drink.png"
+                alt="چای یخی"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="menu-item-info">
+                <div class="item-info">
+                  <h3 class="item-name">چای یخی</h3>
+                  <p class="price">
+                    55,000 <span class="price-postfix">تومان</span>
+                  </p>
+                </div>
+              </div>
+
+              <ul class="details-list">
+                <li>چای سیاه با یخ</li>
+                <li>مناسب روزهای گرم</li>
+              </ul>
+            </div>
+
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/2-juice.png"
+                alt="لیموناد"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="menu-item-info">
+                <div class="item-info">
+                  <h3 class="item-name">لیموناد</h3>
+                  <p class="price">
+                    45,000 <span class="price-postfix">تومان</span>
+                  </p>
+                </div>
+              </div>
+
+              <ul class="details-list">
+                <li>لیمو تازه</li>
+                <li>خنک و گوارا</li>
+              </ul>
+            </div>
+
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/2-cold-drink.png"
+                alt="لیموناد"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="menu-item-info">
+                <div class="item-info">
+                  <h3 class="item-name">لیموناد</h3>
+                  <p class="price">
+                    45,000 <span class="price-postfix">تومان</span>
+                  </p>
+                </div>
+              </div>
+
+              <ul class="details-list">
+                <li>تازه و طبیعی</li>
+                <li>بدون مواد افزودنی</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+        <!-- smoothie -->
+        <article class="menu-items-wrapper" id="smoothie">
+          <h2 class="menu-items-title">اسموتی</h2>
+          <div class="menu-items-box">
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/1-cold-drink.png"
+                alt="آبمیوه طبیعی"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="item-info">
+                <h3 class="item-name">آبمیوه طبیعی</h3>
+                <p class="price">
+                  50,000 <span class="price-postfix">تومان</span>
+                </p>
+              </div>
+
+              <ul class="details-list">
+                <li>تازه و طبیعی</li>
+                <li>بدون مواد افزودنی</li>
+              </ul>
+            </div>
+
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/2-cold-drink.png"
+                alt="لیموناد"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="menu-item-info">
+                <div class="item-info">
+                  <h3 class="item-name">لیموناد</h3>
+                  <p class="price">
+                    45,000 <span class="price-postfix">تومان</span>
+                  </p>
+                </div>
+              </div>
+
+              <ul class="details-list">
+                <li>لیمو تازه</li>
+                <li>خنک و گوارا</li>
+              </ul>
+            </div>
+
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/3-cold-drink.png"
+                alt="چای یخی"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="menu-item-info">
+                <div class="item-info">
+                  <h3 class="item-name">چای یخی</h3>
+                  <p class="price">
+                    55,000 <span class="price-postfix">تومان</span>
+                  </p>
+                </div>
+              </div>
+
+              <ul class="details-list">
+                <li>چای سیاه با یخ</li>
+                <li>مناسب روزهای گرم</li>
+              </ul>
+            </div>
+
+            <!--Menu Item-->
+            <div class="menu-item">
+              <img
+                src="./assets/images/2-cold-drink.png"
+                alt="لیموناد"
+                loading="lazy"
+                class="item-img"
+              />
+              <div class="menu-item-info">
+                <div class="item-info">
+                  <h3 class="item-name">لیموناد</h3>
+                  <p class="price">
+                    45,000 <span class="price-postfix">تومان</span>
+                  </p>
+                </div>
+              </div>
+
+              <ul class="details-list">
+                <li>تازه و طبیعی</li>
+                <li>بدون مواد افزودنی</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- Go Top When Click -->
+    <button id="goTopBtn" title="Go to top">
+      <img src="./assets/images/arrow-top-icon.svg" alt="go top" />
+    </button>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
